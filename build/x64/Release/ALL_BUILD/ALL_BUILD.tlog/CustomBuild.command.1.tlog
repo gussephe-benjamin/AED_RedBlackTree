@@ -1,0 +1,10 @@
+^D:\AED\PROYECTO\RED-BLACK-TREE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/AED/Proyecto/RED-BLACK-TREE -BD:/AED/Proyecto/RED-BLACK-TREE/build --check-stamp-file D:/AED/Proyecto/RED-BLACK-TREE/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
