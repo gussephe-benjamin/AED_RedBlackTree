@@ -2,8 +2,8 @@
 #include <chrono>
 #include <cstdlib>
 #include <vector>
-#include "AVL.h"
-#include "Red-Black-Tree.h"
+#include "AvlTree.h"
+#include "RedBlackTree.h"
 
 using namespace std;
 using namespace std::chrono;

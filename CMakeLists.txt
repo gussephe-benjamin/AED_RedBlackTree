@@ -10,7 +10,7 @@ set(CMAKE_CXX_STANDARD 17)
 # Especificar los archivos fuente
 set(SOURCES
     main.cpp
-    AVL.h
+    AvlTree.h
     Red-Black-Tree.h
 )
 
