@@ -170,7 +170,7 @@ private:
         x = temp->right;
 
         if (temp->parent == node) {
-            if (x) x->parent = temp; // Asegurarse de que x no es nullptr antes de asignarle un padre.
+            if (x) x->parent = temp; 
         } else {
             transplant(temp, temp->right);
             temp->right = node->right;
@@ -229,7 +229,6 @@ private:
                 node = root;
             }
         } else {
-            // Simétrico al caso anterior, con 'left' y 'right' intercambiados
             Node<T>* sibling = node->parent->left;
             if (sibling && sibling->color == 'R') {
                 sibling->color = 'B';

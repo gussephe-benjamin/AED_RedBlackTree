@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="D:\AED\Proyecto\RED-BLACK-TREE\build\CMakeFiles\140dac1930e81aad4a66f648152cda5f\generate.stamp.rule">
+    <CustomBuild Include="D:\AED\Proyecto\AED_RedBlackTree\build\CMakeFiles\c568a389bd63088ac155c0e93a66ad3a\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{3A456941-ADC5-35CA-9995-E03374814B05}</UniqueIdentifier>
+      <UniqueIdentifier>{3A0B6F40-61DC-3371-844D-9425A2E18FE0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

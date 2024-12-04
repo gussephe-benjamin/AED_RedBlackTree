@@ -1,0 +1,10 @@
+^D:\AED\PROYECTO\AED_REDBLACKTREE\BUILD\CMAKEFILES\C568A389BD63088AC155C0E93A66AD3A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/AED/Proyecto/AED_RedBlackTree -BD:/AED/Proyecto/AED_RedBlackTree/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/AED/Proyecto/AED_RedBlackTree/build/MiProyecto.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

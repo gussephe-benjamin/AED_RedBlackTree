@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\AED\Proyecto\RED-BLACK-TREE\main.cpp">
+    <ClCompile Include="D:\AED\Proyecto\AED_RedBlackTree\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\AED\Proyecto\RED-BLACK-TREE\AVL.h">
+    <ClInclude Include="D:\AED\Proyecto\AED_RedBlackTree\AvlTree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\AED\Proyecto\RED-BLACK-TREE\Red-Black-Tree.h">
+    <ClInclude Include="D:\AED\Proyecto\AED_RedBlackTree\RedBlackTree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\AED\Proyecto\RED-BLACK-TREE\CMakeLists.txt" />
+    <CustomBuild Include="D:\AED\Proyecto\AED_RedBlackTree\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{DFD25AFB-9AFE-3458-849A-41518A2B2864}</UniqueIdentifier>
+      <UniqueIdentifier>{FF279A97-122A-31E1-A66D-51D66DF375A4}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{15D9B818-8FF1-33EE-AEE3-75E71F886F7C}</UniqueIdentifier>
+      <UniqueIdentifier>{F222644B-59D7-38B2-A6B3-73DFB988C471}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

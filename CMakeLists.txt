@@ -11,7 +11,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(SOURCES
     main.cpp
     AvlTree.h
-    Red-Black-Tree.h
+    RedBlackTree.h
 )
 
 # Crear el ejecutable
